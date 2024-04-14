@@ -24,7 +24,7 @@ const Header = () => {
           */}
         <HeaderTitle>Boris's Blog</HeaderTitle>
       </Link>
-      <Link to={`/list`}>
+      <Link to={`/list`} aria-label="go-to-list-page">
         <ListIcon />
       </Link>
     </HeaderArea>

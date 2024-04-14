@@ -16,13 +16,13 @@ body {
 
 @font-face {
   font-family: PermanentMarker;
-  src: url('./fonts/PermanentMarker-Regular.ttf');
+  src: url('./fonts/PermanentMarker-Regular.woff2');
   font-display: block;
 }
 
 @font-face {
   font-family: RubikScribble;
-  src: url('./fonts/RubikScribble-Regular.ttf');
+  src: url('./fonts/RubikScribble-Regular.woff2');
   font-display: block;
 }
 

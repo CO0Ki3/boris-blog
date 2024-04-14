@@ -1,9 +1,9 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, lazy } from 'react';
 import { useParams } from 'react-router-dom';
 import Templates from '../common/Templates';
 import { PostDto } from '../../dto/PostDto';
-import ReactMarkdown from 'react-markdown';
 import styled from 'styled-components';
+const ReactMarkdown = lazy(() => import('react-markdown'));
 
 const Detail = () => {
   const { id } = useParams()
